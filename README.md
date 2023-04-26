@@ -5,7 +5,8 @@
 
 This is an organization's portfolio built with using ReactJS
 
-
+## Deployed link :
+https://openxyz-sigma.vercel.app/
 
 <!-- LICENSE -->
 ## License
