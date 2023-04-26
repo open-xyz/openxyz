@@ -1,0 +1,71 @@
+@use '../../scss/variables' as var;
+
+#footer {
+    background-color: var.$cultured;
+    color: var.$darkGunmetal;
+    text-align: center;
+    padding: 3rem 0;
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0.75rem;
+        width: 100%;
+
+        @media (min-width: 576px) {
+            max-width: 540px;
+        }
+
+        @media (min-width: 768px) {
+            max-width: 720px;
+        }
+
+        @media (min-width: 992px) {
+            max-width: 960px;
+        }
+
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+        }
+
+        .footer-title {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            font-weight: 300;
+        }
+
+        .footer-content {
+            .footer-content__about {
+                font-size: 1.25rem;
+                font-weight: 300;
+                margin: 1.5rem 0;
+            }
+
+            .footer-developer-info {
+                margin-bottom: 0.15em;
+
+                .footer-developer-info__link {
+                    background-color: var.$darkGunmetal !important;
+                    border-radius: 0.375rem;
+                    color: var.$white;
+                    display: inline-block;
+                    font-size: 0.75em;
+                    font-weight: 700;
+                    line-height: 1;
+                    padding: 0.35em 0.65em;
+                    text-align: center;
+                    vertical-align: initial;
+                    white-space: nowrap;
+                    text-decoration: none;
+                }
+            }
+
+            .footer-content-end {
+                color: var.$auroMetalSaurus;
+                margin: 0;
+                font-size: 0.875em;
+                font-weight: 400;
+            }
+        }
+    }
+}

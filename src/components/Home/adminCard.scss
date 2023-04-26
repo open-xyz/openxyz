@@ -1,0 +1,76 @@
+@use '../../scss/variables' as var;
+
+.admin-card {
+    padding: 0.75rem;
+    max-width: 15rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+    width: 15rem;
+    height: 20rem;
+    margin-right: 1.5rem;
+
+    .admin-card__content {
+        padding: 1rem 0;
+        color: var.$onyx;
+        border: 1px solid var.$lightGrayishBlue;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .admin-dp {
+            display: flex;
+            justify-content: center;
+
+            img {
+                border-radius: 50%;
+                width: 43%;
+            }
+        }
+
+        h2 {
+            font-weight: normal;
+            margin: 0.75rem 0 0 0;
+            text-align: center;
+            font-size: var(--step-0);
+        }
+
+        p {
+            margin: 0.1rem 0 0 0;
+            color: var.$auroMetalSaurus;
+            text-align: center;
+        }
+
+        .admin-gh-link {
+            margin-top: 1rem;
+            align-self: center;
+
+            .gh-icon {
+                text-align: center;
+                font-size: 1.65rem;
+            }
+        }
+    }
+}
+
+:root {
+    --f-0-min: 18;
+    --f-0-max: 20;
+    --fluid-min-width: 320;
+    --fluid-max-width: 1240;
+    --fluid-screen: 100vw;
+    --fluid-bp: calc(
+        (var(--fluid-screen) - var(--fluid-min-width) / 16 * 1rem) /
+            (var(--fluid-max-width) - var(--fluid-min-width))
+    );
+
+    --step-0: calc(
+        ((var(--f-0-min) / 16) * 1.05rem) + (var(--f-0-max) - var(--f-0-min)) *
+            var(--fluid-bp)
+    );
+
+    @media screen and (min-width: 1240px) {
+        --fluid-screen: calc(var(--fluid-max-width) * 1px);
+    }
+}
