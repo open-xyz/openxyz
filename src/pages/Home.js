@@ -9,7 +9,7 @@ function Home() {
         <>
             <MainBody />
             <Technologies />
-            <Projects />
+            {/* <Projects /> */}
             <AboutUs />
             <Admins />
         </>

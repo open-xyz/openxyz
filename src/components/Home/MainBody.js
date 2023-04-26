@@ -6,17 +6,17 @@ function MainBody() {
     return (
         <section id="home">
             <div className="text-center">
-                <h1 className="title">Team Alpha</h1>
+                <h1 className="title">OpenXYZ</h1>
                 <p className="typist">Building the Future with Technology</p>
             </div>
             <div className="socials">
                 <article className="telegram social-icon">
-                    <a href="https://t.me/AlphaTm_Botz" className="social-icon-link">
+                    <a href="https://t.me/" className="social-icon-link">
                         <FontAwesomeIcon icon={faTelegram} className="icon" />
                     </a>
                 </article>
                 <article className="github social-icon">
-                    <a href="https://github.com/TeamAlphaTg" className="social-icon-link">
+                    <a href="https://github.com/open-xyz" className="social-icon-link">
                         <FontAwesomeIcon icon={faGithub} className="icon" />
                     </a>
                 </article>
