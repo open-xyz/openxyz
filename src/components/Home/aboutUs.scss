@@ -1,0 +1,110 @@
+@use '../../scss/variables' as var;
+
+#about {
+    background-color: var.$brightGray;
+    padding: 3rem 0;
+
+    .about-container {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem 0.75rem;
+
+        @media (min-width: 576px) {
+            padding: 4rem 0rem;
+            max-width: 540px;
+        }
+
+        @media (min-width: 768px) {
+            max-width: 720px;
+        }
+
+        @media (min-width: 992px) {
+            max-width: 960px;
+        }
+
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0 0.5rem;
+
+        .about-img {
+            display: none;
+            padding: 0 1rem;
+
+            .image-container {
+                width: 375px;
+                height: 375px;
+                overflow: hidden;
+
+                img {
+                    aspect-ratio: auto 375 / 375;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+            @media screen and (min-width: 992px) {
+                flex: 0 0 43%;
+                max-width: 43%;
+                display: block;
+            }
+        }
+
+        .about-content {
+            padding: 0 1rem;
+
+            @media screen and (min-width: 992px) {
+                flex: 0 0 57%;
+                max-width: 57%;
+            }
+
+            .about-content__title {
+                font-size: 3.5rem;
+                font-weight: 300;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 3rem;
+                line-height: 1.2;
+            }
+
+            .about-content__description {
+                font-size: 1.25rem;
+                font-weight: 300;
+                margin-top: 0;
+                text-align: center;
+            }
+
+            .contact {
+                width: 100%;
+                text-align: center;
+                margin-top: 2rem;
+
+                .contact-btn {
+                    color: var.$onyx;
+                    border: 1px solid var.$onyx;
+                    background: transparent;
+                    padding: 0.5rem 1rem;
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    text-align: center;
+                    line-height: 1.5;
+                    border-radius: 0.3rem;
+                    vertical-align: middle;
+                    transition: 0.2s background, color;
+
+                    &:hover {
+                        color: var.$white;
+                        background: var.$onyx;
+                    }
+                }
+            }
+        }
+    }
+}

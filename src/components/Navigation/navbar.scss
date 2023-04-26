@@ -1,0 +1,86 @@
+@use '../../scss/variables' as var;
+
+#navigation-bar {
+    position: fixed;
+    color: var.$greyishBlack;
+    background-color: transparent;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.5rem 1.75vw;
+    max-width: 100% !important;
+    transition: 0.2s all;
+    z-index: 999 !important;
+    
+    &.white {
+        background-color: var.$brightGray !important;
+    }
+
+    #nav-title {
+        margin-right: 1.25rem;
+        padding: 0.3125rem 0;
+
+        #nav-title-link {
+            font-size: 1.25rem;
+            white-space: nowrap;
+        }
+    }
+    
+    .nav {
+        transition: 0.2s all;
+        display: flex;
+        max-height: 0;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-grow: 1;
+        overflow: hidden;
+
+        .nav-link {
+            font-size: 1.25rem;
+            padding: 0.5rem 0;
+            transition: color 0.2s;
+            font-weight: 300;
+            color: var.$grey;
+
+            &:hover {
+                color: var.$greyishBlack;
+            }
+
+            @media screen and (min-width: 990px) {
+                padding-left: 0.7rem;
+                padding-right: 0.7rem;
+            }
+        }
+
+        @media screen and (min-width: 990px) {
+            display: flex;
+            flex-direction: row;
+            max-height: unset !important;
+        }
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    &.show {
+        background-color: var.$brightGray;
+
+        .nav {
+            max-height: 10.75rem;
+        }
+    }
+
+    @media screen and (min-width: 990px) {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        background-color: transparent !important;
+
+        .navbar-toggle {
+            display: none;
+        }
+    }
+}

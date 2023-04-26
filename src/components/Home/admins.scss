@@ -1,0 +1,50 @@
+@use '../../scss/variables' as var;
+
+#admins {
+    padding: 3rem 0;
+
+    .admins-container {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem 1rem;
+
+        @media (min-width: 576px) {
+            max-width: 540px;
+            padding: 3rem 0;
+        }
+
+        @media (min-width: 768px) {
+            max-width: 720px;
+        }
+
+        @media (min-width: 992px) {
+            max-width: 960px;
+        }
+
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+        }
+
+        .title {
+            font-size: 3.5rem;
+            margin: 0 0 3rem 0;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .arrows {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .react-horizontal-scrolling-menu--scroll-container {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
+    }
+}

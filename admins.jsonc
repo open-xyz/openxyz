@@ -1,0 +1,69 @@
+{
+    "admins": [
+        {
+            "id": 1,
+            "name": "Gishan Krishka",
+            "role": "Founder",
+            "ghUrl": "https://github.com/Gishankrishka2",
+            "dpUrl": "https://github.com/Gishankrishka2.png"
+        },
+        {
+            "id": 2,
+            "name": "Tharusha kalum",
+            "role": "Admin",
+            "ghUrl": "https://github.com/tkalum",
+            "dpUrl": "https://github.com/tkalum.png"
+        },
+        {
+            "id": 3,
+            "name": "DARKEMPIRE",
+            "role": "Admin",
+            "ghUrl": "https://github.com/DARKEMPIRESL",
+            "dpUrl": "https://github.com/DARKEMPIRESL.png"
+        },
+        {
+            "id": 4,
+            "name": "Disala Yuthmira",
+            "role": "Admin",
+            "ghUrl": "https://github.com/disalad",
+            "dpUrl": "https://github.com/disalad.png"
+        },
+        {
+            "id": 5,
+            "name": "Tharuk Renuja",
+            "role": "Admin",
+            "ghUrl": "https://github.com/TharukRenuja",
+            "dpUrl": "https://github.com/TharukRenuja.png"
+        },
+        {
+            "id": 6,
+            "name": "Chamindu Denuwan",
+            "role": "Admin",
+            "ghUrl": "https://github.com/ImDenuwan",
+            "dpUrl": "https://github.com/ImDenuwan.png"
+        },
+        {
+            "id": 7,
+            "name": "Janith Sadanuwan",
+            "role": "Admin",
+            "ghUrl": "https://github.com/Janithsadanuwan",
+            "dpUrl": "https://github.com/Janithsadanuwan.png"
+        },
+        {
+            "id": 8,
+            "name": "Tony Stark",
+            "role": "Admin",
+            "ghUrl": "https://github.com/Itztonystark",
+            "dpUrl": "https://github.com/Itztonystark.png"
+        },
+        {
+            "id": 9,
+            "name": "Neptune the Killer",
+            "role": "Admin",
+            "ghUrl": "https://github.com/nepthekiller1",
+            "dpUrl": "https://github.com/nepthekiller1.png"
+        }
+    ]
+}
+
+// https://api.jsonbin.io/v3/b/63b06049dfc68e59d574f176

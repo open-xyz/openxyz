@@ -1,0 +1,140 @@
+@use '../../scss/variables' as var;
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    flex: 0 0 100%;
+    padding: 0 1rem;
+
+    @media screen and (min-width: 768px) {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .project-card__content {
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+        padding: 1.75rem 2.25rem;
+        margin-bottom: 3rem;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        transition: transform 0.3s, box-shadow 0.3s, -webkit-transform 0.3s;
+
+        &:hover {
+            box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.175);
+            transform: translateY(-2px);
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-top: 0 !important;
+        }
+
+        .project-description {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+        .link-btn {
+            display: inline-block;
+            font-weight: 400;
+            color: var.$auroMetalSaurus;
+            text-align: center;
+            vertical-align: middle;
+            background-color: transparent;
+            border: 1px solid var.$auroMetalSaurus;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            transition: 0.15s ease-in-out color, background-color, border-color,
+                box-shadow;
+
+            &:focus {
+                box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
+            }
+
+            &:hover {
+                color: var.$white;
+                background-color: var.$auroMetalSaurus;
+                border-color: var.$auroMetalSaurus;
+            }
+
+            .github-icon {
+                margin-right: 0.25rem;
+            }
+        }
+
+        .clone-btn {
+            margin-right: 1rem;
+        }
+
+        .divider {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .badge {
+            padding: 0.25em 0.4em;
+            font-size: 75%;
+            font-weight: 700;
+            text-align: center;
+            white-space: nowrap;
+            border-radius: 0.25rem;
+            transition: 0.15s background-color;
+        }
+
+        .languages {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+
+            p {
+                line-height: 1.2;
+                margin: 0;
+            }
+
+            .languages-list {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+
+                .language {
+                    color: var.$darkGunmetal;
+                    background-color: var.$ghostWhite;
+
+                    &:hover {
+                        background-color: var.$gainsboro;
+                    }
+                }
+            }
+        }
+
+        .card-footer {
+            margin-bottom: 0 !important;
+
+            .stargazers {
+                color: var.$onyx;
+                margin-right: 1.5rem;
+
+                .star-count {
+                    background-color: var.$onyx;
+                    color: var.$white;
+                }
+            }
+
+            .update-at {
+                color: var.$auroMetalSaurus;
+                font-size: 80%;
+                font-weight: 400;
+            }
+        }
+    }
+}
