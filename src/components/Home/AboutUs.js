@@ -8,7 +8,7 @@ function AboutUs() {
                     <div className="about-img">
                         <div className="image-container">
                             <img
-                                src={require('../../assets/images/team-alpha-display-picture.jpg')}
+                                src={require('../../assets/images/logo.jpg')}
                                 alt="About"
                             />
                         </div>

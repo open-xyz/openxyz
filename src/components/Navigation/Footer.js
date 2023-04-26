@@ -27,17 +27,17 @@ function Footer() {
                             href="https://github.com/rohansx"
                             className="footer-developer-info__link link"
                         >
-                            Rohan Sharma
+                            Rohan
                         </a>{' '}
                         using{' '}
                         <a href="https://reactjs.org" className="link">
                             <FontAwesomeIcon icon={faReact} />
                         </a>
                     </div>
-                    <p className="footer-content-end">
+                    {/* <p className="footer-content-end">
                         Project code is open source. Feel free to fork and make your own
                         version.
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </footer>

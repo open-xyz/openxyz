@@ -11,7 +11,7 @@ function Home() {
             <Technologies />
             {/* <Projects /> */}
             <AboutUs />
-            <Admins />
+            {/* <Admins /> */}
         </>
     );
 }
