@@ -9,9 +9,9 @@ To start contributing, follow these steps:
     - Fork this repository by clicking the "Fork" button on the repository page. This creates a copy of the repository under your GitHub account.
 
 - Step 2:
-    - Clone your forked repository to your local machine using the git clone command. Make sure to replace `<your-username>` with your actual GitHub username:
+    - Clone your forked repository to your local machine using the git clone command. 
     ```console
-        $ git clone https://github.com/<your-username>/openxyz.git
+        $ git clone https://github.com/open-xyz/openxyz.git
     ```
 
 - Step 3: 
