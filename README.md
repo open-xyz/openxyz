@@ -5,8 +5,8 @@
 This is an organization's portfolio built with ReactJS and showcases the projects, technologies, and services of the organization.
 
 ## Installation
-1) Clone the repository: `git clone https://github.com/username/repo-name.git`
-2) Navigate to the project directory: `cd repo-name`
+1) Clone the repository: `git clone https://github.com/open-xyz/openxyz.git`
+2) Navigate to the project directory: `cd openxyz`
 3) Install dependencies: `npm install`
 
 ## Usage
