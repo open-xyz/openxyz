@@ -1,87 +1,85 @@
-@use '../../scss//variables' as var;
+@use "../../scss//variables" as var;
 
 #technologies {
-    background-color: var.$ghostWhite;
+  background-color: var.$ghostWhite;
 
-    .technologies-container {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 3rem calc(1.5rem * 0.5);
+  .technologies-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem calc(1.5rem * 0.5);
 
-        @media (min-width: 576px) {
-            max-width: 540px;
-        }
-
-        @media (min-width: 768px) {
-            max-width: 720px;
-        }
-
-        @media (min-width: 992px) {
-            max-width: 960px;
-        }
-
-        @media (min-width: 1200px) {
-            max-width: 1140px;
-        }
-
-        .p-3rem {
-            padding: 3rem 0;
-
-            @media screen and (min-width: 870px) {
-                padding: 3rem;
-            }
-        }
+    @media (min-width: 576px) {
+      max-width: 540px;
     }
 
-    .section-title {
-        font-size: 3.5rem;
-        margin-top: 0;
-        margin-bottom: 3.5rem;
-        font-weight: 300;
+    @media (min-width: 768px) {
+      max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+      max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+      max-width: 1140px;
+    }
+
+    .p-3rem {
+      padding: 3rem 0;
+
+      @media screen and (min-width: 870px) {
+        padding: 3rem;
+      }
+    }
+  }
+
+  .section-title {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .technologies-tab {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 0 !important;
+    border-bottom: 1px solid var.$lightGrayishBlue;
+
+    .tab-item {
+      flex: 1 1 auto;
+
+      .technology-tab {
+        width: 100%;
+        display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+          border-color 0.15s ease-in-out;
+        background: none;
+        border: 1px solid transparent;
+        border-top-left-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+        margin-bottom: calc(1px * -1);
+        font-size: 16px;
+        line-height: 1.5rem;
         text-align: center;
-    }
+        cursor: pointer;
 
-    .technologies-tab {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex-grow: 1;
-        padding: 0 !important;
-        border-bottom: 1px solid var.$lightGrayishBlue;
-
-        .tab-item {
-            flex: 1 1 auto;
-            
-            .technology-tab {
-                color: var.$vividBlue;
-                width: 100%;
-                display: block;
-                padding: 0.5rem 1rem;
-                text-decoration: none;
-                transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-                    border-color 0.15s ease-in-out;
-                background: none;
-                border: 1px solid transparent;
-                border-top-left-radius: 0.375rem;
-                border-top-right-radius: 0.375rem;
-                margin-bottom: calc(1px * -1);
-                font-size: 16px;
-                line-height: 1.5rem;
-                text-align: center;
-                cursor: pointer;
-                
-                &:hover {
-                    border-color: var.$icewindDale var.$icewindDale var.$lightGrayishBlue;
-                }
-
-                &.active {
-                    background-color: var.$white;
-                    border-color: var.$lightGrayishBlue var.$lightGrayishBlue var.$white;
-                    color: var.$mediumDarkCyanBlue;
-                }
-
-            }
+        &:hover {
+          border-color: var.$icewindDale var.$icewindDale var.$lightGrayishBlue;
         }
+
+        &.active {
+          background-color: var.$white;
+          border-color: var.$lightGrayishBlue var.$lightGrayishBlue var.$white;
+          color: var.$mediumDarkCyanBlue;
+        }
+      }
     }
+  }
 }
