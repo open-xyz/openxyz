@@ -54,13 +54,13 @@
             flex: 1 1 auto;
             
             .technology-tab {
-                color: var.$vividBlue;
+                color: var.$black;
                 width: 100%;
                 display: block;
                 padding: 0.5rem 1rem;
                 text-decoration: none;
-                transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-                    border-color 0.15s ease-in-out;
+                transition: color 0.15s ease-in-out, background-color 0.3s ease-in-out,
+                border-color 0.15s ease-in-out;
                 background: none;
                 border: 1px solid transparent;
                 border-top-left-radius: 0.375rem;
@@ -73,12 +73,13 @@
                 
                 &:hover {
                     border-color: var.$icewindDale var.$icewindDale var.$lightGrayishBlue;
+                    background-color: var.$brightGray;
                 }
 
                 &.active {
-                    background-color: var.$white;
+                    background-color: var.$black;
                     border-color: var.$lightGrayishBlue var.$lightGrayishBlue var.$white;
-                    color: var.$mediumDarkCyanBlue;
+                    color: var.$white;
                 }
 
             }
