@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <header
             id="navigation-bar"
-            className={`${show ? 'show' : ''} ${scrolled ? 'white' : ''}`}
+            className={`${show ? 'show' : ''} ${scrolled ? 'fixed not' : 'fixed'}`}
         >
             <div id="nav-title">
                 <a href="#home" id="nav-title-link">
