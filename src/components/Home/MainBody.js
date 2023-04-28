@@ -21,7 +21,7 @@ function MainBody() {
                     </a>
                 </article>
                 <article className="twitter social-icon">
-                    <a href="https://twitter.com" className="social-icon-link">
+                    <a href="https://twitter.com/therohanx" className="social-icon-link">
                         <FontAwesomeIcon icon={faTwitter} className="icon" />
                     </a>
                 </article>
