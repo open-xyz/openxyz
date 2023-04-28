@@ -16,14 +16,10 @@ function AboutUs() {
                     <div className="about-content">
                         <h1 className="about-content__title">About Us</h1>
                         <p className="about-content__description">
-                            Hey! We are OpenXYZ. We're a non-profit organization
-                            creating Web apps. We're most
-                            passionate about giving back to the community, and our goal is
-                            to pursue this passion within the field of software
-                            engineering.
+                            OpenXYZ is a non-profit organization that creates web apps with a focus on giving back to the community. Our mission is to leverage technology for positive impact in the world. We are dedicated to building innovative      and functional web applications that are accessible to everyone. Our goal is to empower individuals and organizations to make a positive impact on society.
                         </p>
                         <p className="contact">
-                            <a href="https://t.me/" className="contact-btn">
+                            <a href="https://twitter.com/therohanx" className="contact-btn">
                                 Contact Us
                             </a>
                         </p>

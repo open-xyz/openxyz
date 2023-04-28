@@ -12,12 +12,12 @@ function Footer() {
                         We're currently looking for more open source project ideas and
                         more developers who can work with us. If you have an idea or you
                         wanna work with us, if you have any questions, or if you just want
-                        to say hi, please feel free to contact us via{' '}
+                        to say hi, please feel free to contact via{' '}
                         <a
-                            href="https://t.me/"
+                            href="https://twitter.com/therohanx/"
                             className="footer-content__email link"
                         >
-                            telegram
+                            twitter
                         </a>
                         .
                     </p>
