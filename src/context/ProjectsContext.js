@@ -24,7 +24,7 @@ function ProjectsContextProvider({ children }) {
 
         const fetchProjects = () => {
             try {
-                axios.get('https://api.github.com/orgs/TeamAlphaTg/repos').then(res => {
+                axios.get('https://api.github.com/orgs/open-xyz/repos').then(res => {
                     setProjects(filterProjects(res));
                     setLoading(false);
                 });
