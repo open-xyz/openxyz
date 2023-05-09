@@ -14,7 +14,7 @@ function Footer() {
                         wanna work with us, if you have any questions, or if you just want
                         to say hi, please feel free to contact via{' '}
                         <a
-                            href="https://twitter.com/therohanx/"
+                            href="https://twitter.com/openxyz_/"
                             className="footer-content__email link"
                         >
                             twitter

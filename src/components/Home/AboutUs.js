@@ -19,7 +19,7 @@ function AboutUs() {
                             OpenXYZ is a non-profit organization that creates web apps with a focus on giving back to the community. Our mission is to leverage technology for positive impact in the world. We are dedicated to building innovative      and functional web applications that are accessible to everyone. Our goal is to empower individuals and organizations to make a positive impact on society.
                         </p>
                         <p className="contact">
-                            <a href="https://twitter.com/therohanx" className="contact-btn">
+                            <a href="https://twitter.com/openxyz_" className="contact-btn">
                                 Contact Us
                             </a>
                         </p>

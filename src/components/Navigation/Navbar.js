@@ -29,7 +29,7 @@ function Navbar() {
         >
             <div id="nav-title">
                 <a href="#home" id="nav-title-link">
-                    {'< OpenXYZ />'}
+                    {'<OpenXYZ/>'}
                 </a>
             </div>
             <div className="navbar-toggle" onClick={() => setShow(prev => !prev)}>
