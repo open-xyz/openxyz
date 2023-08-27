@@ -14,6 +14,6 @@ This is an organization's portfolio built with ReactJS and showcases the project
 2) Open the web browser and go to: `http://localhost:3000`
 
 ## Contributing
-OpenXYZ is currently looking for more open source project ideas and developers who can work with us. If you have an idea or would like to work with us, or if you have any questions or just want to say hi, please feel free to contact us.
+OpenXYZ is currently looking for more open-source project ideas and developers who can work with us. If you have an idea or would like to work with us, or if you have any questions or just want to say hi, please feel free to contact us.
 
 Contributors can check the `issues` tab for any existing issues and create a new issue if necessary. Pull requests are welcome and should be submitted to the main branch.
